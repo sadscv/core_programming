@@ -50,7 +50,7 @@ class MultinomialNB(object):
         return self
 
     def _get_xj_prob(self, value_prob, target_value):
-        return value_prob[target_value]
+            return value_prob.get(target_value, 1)
 
     def _predicct_single_sample(self, x):
         label = -1
