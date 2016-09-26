@@ -1,0 +1,11 @@
+previous balance
+25
+debits
+21.64
+423.23
+234
+create
+-423.23
+finance charge/late fees
+8.20
+5
